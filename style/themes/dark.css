@@ -1,0 +1,73 @@
+.wrapper {
+  color: #fff; }
+  .wrapper a {
+    color: #fff; }
+
+main {
+  background-color: #212121; }
+
+.line {
+  background-color: #C4C4C4; }
+
+.header--fixed {
+  background-color: #212121; }
+
+.header__extra .link__item {
+  background-color: #333; }
+
+.header .setting__background {
+  background-color: #393939; }
+
+.header .setting__container::before {
+  background-color: #474747; }
+
+.header .setting--set_mod::before {
+  background-color: #474747; }
+
+#setting .setting--icons {
+  background-color: #fff; }
+
+.menu__link:hover {
+  border-bottom: solid 1px #fff; }
+
+.service__item--circle {
+  border: solid 3px #393939; }
+
+.service__item--rectangle {
+  background-color: #393939; }
+
+.works__link--icon {
+  background-color: #F4F4F4; }
+
+.works__item {
+  background-color: #393939; }
+  .works__item:hover {
+    background-color: #545454; }
+
+.person {
+  background-color: #2C2C2C; }
+  .person__position__item::before {
+    color: #fff; }
+
+.service__window {
+  background-color: #393939; }
+
+.footer {
+  background-color: #212121;
+  border-top: solid 1px #C4C4C4; }
+
+.aboutus__extra__icon circle {
+  fill: #2C2C2C; }
+
+.aboutus__extra__icon > path {
+  fill: #848484; }
+
+@media screen and (max-width: 1330px) {
+  .menu__link:hover {
+    border-top: solid 3px #fff;
+    border-bottom: solid 3px #fff; }
+  .bgc {
+    background-color: #252525; } }
+
+.drawing--line {
+  background-color: #fff; }
