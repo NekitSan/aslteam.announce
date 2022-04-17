@@ -1,0 +1,89 @@
+@@include("../components/options/variables.sass")
+
+.wrapper 
+    color: $black
+    a
+        color: $black
+main
+    background-color: #fff
+.line
+    background-color: #4f4f4f
+
+.header
+    &--fixed
+        background-color: #fff
+    &__extra
+        .link
+            &__item
+                background-color: transparent
+                &:hover
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    .setting
+        &__background
+            background-color: #fff
+        &__container
+            &::before
+                background-color: #C9C9C9
+        &--set_mod
+            &::before
+                background-color: #C9C9C9
+#setting .setting--icons
+     background-color: #474747
+
+.menu
+    &__link
+        &:hover
+            border-bottom: solid 1px $black
+
+.service
+    &__item 
+        &--circle 
+            // background: linear-gradient(180deg, rgb(159, 253, 166), rgb(0, 132, 0))
+            border: solid 3px #F4F4F4
+        &--rectangle 
+            background-color: #F4F4F4
+            
+.works
+    &__link--icon
+        background-color: #4f4f4f
+    &__item
+        background-color: #F4F4F4
+        &:hover
+            background-color: #ddd
+
+.person
+    background-color: #fff
+    border: solid 1px $black
+    &__position
+        &__item
+            &::before
+                color: #4f4f4f
+    &__top__tile
+        color: #fff
+.service__window
+    background-color: #fff
+
+.footer
+    background-color: #fff
+    border-top: solid 1px $light-gray
+
+
+//svg
+.aboutus__extra__icon
+    circle
+        fill: #fff
+    & > path
+        fill: #848484
+
+@media screen and ( max-width: 1330px )
+    .menu
+        &__link
+            &:hover
+                border-top: solid 3px #4f4f4f
+                border-bottom: solid 3px #4f4f4f
+    .bgc
+        background-color: #f8f8f8 
+        
+.drawing
+    &--line 
+        background-color: #4f4f4f

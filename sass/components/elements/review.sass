@@ -1,0 +1,57 @@
+.reviews
+    &__container
+        gap: 30px
+.review
+    max-width: 576px
+    width: 100%
+    padding: 10px
+    &__name
+        @include fontH(40, 400)
+        padding-bottom: 20px
+    &__organ
+        @include fontH(22, 400)
+        padding-bottom: 20px
+    &__descriptrion
+        text-align: left
+        padding-bottom: 20px
+    &__stars
+        display: flex
+        justify-content: start
+        align-items: center
+        gap: 5px
+        padding-bottom: 20px
+    .star
+        width: 40px
+        height: 40px
+        -webkit-mask-image: url('../images/icons/star_def.svg')
+        mask-image: url('../images/icons/star_def.svg')
+        mask-repeat: no-repeat
+        mask-position: center
+        mask-size: 80%
+        background-color: #C4C4C4
+    &__data
+        font-size: 18px
+
+.review__stars
+    &.srars_1x
+        .star:first-child
+            background-color: #FFC85D
+    &.srars_2x
+        .star:nth-child(1)
+            background-color: #FFC85D
+        .star:nth-child(2)
+            background-color: #FFC85D
+    &.srars_3x
+        .star:nth-child(1)
+            background-color: #FFC85D
+        .star:nth-child(2)
+            background-color: #FFC85D
+        .star:nth-child(3)
+            background-color: #FFC85D
+    &.srars_4x
+        .star:not(:nth-child(5))
+            background-color: #FFC85D
+    &.srars_5x
+        .star
+            background-color: #FFC85D
+            

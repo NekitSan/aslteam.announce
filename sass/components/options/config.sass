@@ -1,0 +1,61 @@
+.wrapper 
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-self: flex-start
+    max-width: 2560px
+    margin: 0 auto
+    overflow: auto
+.container
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+
+.logo, .tile
+    font-family: "Alice", sans-serif
+main
+    margin-top: 60px
+    min-height: 100vh
+
+.title
+    width: 100%
+    padding-bottom: 20px
+    text-align: center
+    font:
+        size: 48px
+        weight: 400
+    
+.description
+    text-align: center
+    font-size: 18px
+
+.line
+    width: 100%
+    height: 2px
+
+.gag
+    width: 40px
+    height: 40px
+
+#st .disable
+    width: 0
+    height: 0
+    visibility: hidden
+    opacity: 0
+    position: absolute
+    z-index: -1
+
+.mod--grad
+    background: linear-gradient(45deg, #13547a, #80d0c7)
+
+.aboutus__item .person::after
+    border-bottom: 10px solid #5099a5
+
+.mask__extra--icon
+    position: absolute
+    display: block
+    width: 100%
+    height: 100%
+    border-radius: 50%
+    background-color: transparent
+    cursor: pointer

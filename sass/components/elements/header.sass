@@ -1,0 +1,112 @@
+.header
+    position: fixed
+    width: 100%
+    height: 1px
+    z-index: 999
+    &--fixed
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 90px
+        padding: 0 40px
+    .logo
+        color: #a65bea
+        font-weight: 600
+        letter-spacing: 2px
+    &__extra
+        display: flex
+        align-items: center
+        .link
+            &__item
+                display: inline-block
+                height: 40px
+                margin-left: -1px
+                margin-right: 10px
+                border-radius: 50%
+                    
+    #theme, #lang
+        position: relative
+    .setting
+        position: absolute
+        top: 10px
+        right: 40px
+        &--icon
+            -webkit-mask-image: url('../images/icons/setting.svg')
+            mask-image: url('../images/icons/setting.svg')
+        &--icons
+            mask-repeat: no-repeat
+            mask-position: center
+            mask-size: 70%
+        ._mod--notext
+            font-size: 0
+        &__background
+            position: relative
+            width: 40px
+            height: 40px
+            line-height: 40px
+            border-radius: 40px
+            cursor: pointer
+            text-align: center
+            font-size: 18px
+            user-select: none
+            text-transform: capitalize
+            z-index: 1
+        &__preview
+            width: 40px
+            height: 40px
+        &__container
+            position: absolute
+            &::before
+                content: ""
+                position: absolute
+                top: -40%
+                left: 0
+                height: 140%
+                width: 100%
+                border-radius: 40px
+                z-index: 0
+        &--choice
+            padding-top: 10px
+        &--set_mod
+            position: absolute
+            top: 10px
+            left: -45px
+            &::before
+                content: ""
+                position: absolute
+                top: 0
+                left: 0
+                height: 100%
+                width: 180%
+                border-radius: 40px
+                z-index: 0
+            .setting__preview
+                position: absolute
+                top: 0
+                left: 0
+                z-index: 11
+        .dark-mod
+            -webkit-mask-image: url('../images/icons/dark_mod.svg')
+            mask-image: url('../images/icons/dark_mod.svg')
+        .white-mod
+            -webkit-mask-image: url('../images/icons/white_mod.svg')
+            mask-image: url('../images/icons/white_mod.svg')
+
+    &__icon
+        width: 40px
+        height: 40px
+.logo
+    line-height: 90px
+    font-size: 36px
+.menu
+    &__container
+        display: flex
+    &__item
+        max-width: 224px
+        width: 100%
+        line-height: 90px
+        text-align: center
+    &__link
+        font-size: 24px
+        &:hover
+            padding: 0 5px

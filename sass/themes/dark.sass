@@ -1,0 +1,92 @@
+@@include("../components/options/variables.sass")
+
+//Еще header не забудь
+
+.wrapper 
+    color: #fff
+    a
+        color: #fff
+main
+    background-color: $black
+.line
+    background-color: $light-gray
+
+.header
+    &--fixed
+        background-color: $black
+    &__extra
+        .link
+            &__item
+                background-color: #333 
+    .setting
+        &__background
+            background-color: #393939
+        &__container
+            &::before
+                background-color: #474747
+        &--set_mod
+            &::before
+                background-color: #474747
+#setting .setting--icons
+     background-color: #fff
+
+
+.menu
+    &__link
+        &:hover
+            border-bottom: solid 1px #fff
+
+.service
+    &__item 
+        &--circle 
+            // background: linear-gradient(180deg, rgb(159, 253, 166), rgb(0, 132, 0))
+            border: solid 3px $black-gray
+        &--rectangle 
+            background-color: $black-gray
+            
+.works
+    &__link--icon
+        background-color: #F4F4F4
+    &__item
+        background-color: $black-gray
+        &:hover
+            background-color: #545454
+
+.person
+    background-color: $gray
+    &__position
+        &__item
+            &::before
+                color: #fff
+        
+.service__window
+    background-color: $black-gray
+
+
+
+
+.footer
+    background-color: $black
+    border-top: solid 1px $light-gray
+
+
+//svg
+.aboutus__extra__icon
+    circle
+        fill: #2C2C2C
+    & > path
+        fill: #848484
+
+@media screen and ( max-width: 1330px )
+    .menu
+        &__link
+            &:hover
+                border-top: solid 3px #fff
+                border-bottom: solid 3px #fff
+    .bgc
+        background-color: #252525
+
+
+.drawing
+    &--line 
+        background-color: #fff

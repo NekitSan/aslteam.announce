@@ -1,0 +1,42 @@
+.works
+    margin-bottom: 40px
+    &__description 
+        max-width: 1900px
+        width: 100%
+        margin: 0 auto
+        line-height: 22.5px
+    &__container 
+        margin: 18px
+        margin-top: 40px
+        gap: 44px
+    &__link--icon
+        position: absolute
+        width: 40px
+        height: 40px
+        left: -20px
+        top: -20px
+        -webkit-mask-image: url('../images/icons/link.svg')
+        mask-image: url('../images/icons/link.svg')
+        mask-repeat: no-repeat
+        mask-position: center
+        mask-size: 80%
+        background-color: #4f4f4f
+    &__item
+        position: relative
+        display: block
+        max-width: 448px
+        width: 100%
+        padding-bottom: 7px
+        transition: background-color ease .3s
+        &__top 
+            padding: 16px 0 16px
+            align-items: center
+            gap: 40px
+        &__tile
+            @include fontH(24, 400)
+        &__content
+            line-height: 20px
+            font-size: 16px
+            padding: 0 16px 16px 16px
+
+    
